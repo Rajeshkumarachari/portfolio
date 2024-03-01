@@ -1,4 +1,6 @@
 import About from "./components/About";
+import Certification from "./components/Certification";
+import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
@@ -14,6 +16,8 @@ function App() {
       <About />
       <Portfolio />
       <Experience />
+      <Certification />
+      <Contact />
     </div>
   );
 }
