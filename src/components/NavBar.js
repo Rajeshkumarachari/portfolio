@@ -30,7 +30,7 @@ const NavBar = () => {
     },
   ];
   return (
-    <div className=" flex justify-between items-center w-full h-20 text-white fixed  bg-gray-600 px-4">
+    <div className=" flex justify-between items-center w-screen h-20 text-white fixed  bg-gray-600 px-4">
       <div>
         <h1 className="text-5xl font-signature ml-2 cursor-pointer">
           K . Rajesh
