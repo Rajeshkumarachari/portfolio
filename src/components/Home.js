@@ -1,6 +1,7 @@
 import React from "react";
 import hero from "../assets/hero.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { MdCloudDownload } from "react-icons/md";
 
 const Home = () => {
   return (
@@ -14,17 +15,27 @@ const Home = () => {
             I'am Front End Developer
           </h2>
           <p className=" text-gray-400 py-4 max-w-md">
-            I have 2+ years of professional experience. Expertise in Front end
-            development using React js, JavaScript, Redux, Next js, HTML, and
-            CSS.
+            I have 2+ years of professional experience. Specializing in creating
+            dynamic and engaging user interfaces using React.js, JavaScript,
+            Redux, Next.js, HTML, and CSS.
           </p>
-          <div>
+          <div className=" flex">
             <button className="group text-white flex w-fit px-6 py-3 my-2 items-center rounded-md bg-gradient-to-r  from-blue-600 to-cyan-400">
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={24} className=" ml-1" />
               </span>
             </button>
+            <a
+              href="/Rajesh_Frontend_Developer.pdf"
+              target="_blank"
+              rel="noreferrer"
+              download={true}
+            >
+              <button className=" sm:hidden flex justify-center  items-center bg-green-600 hover:brightness-95 px-6 h-12 mt-2 mx-12 rounded-md text-white">
+                <MdCloudDownload className=" text-xl mr-2" /> Resume
+              </button>
+            </a>
           </div>
         </div>
         <div className="">

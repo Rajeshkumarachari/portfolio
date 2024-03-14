@@ -6,7 +6,7 @@ const Certification = () => {
   return (
     <div
       name="certification"
-      className=" pt-[400px] sm:pt-20 w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className=" pt-[590px] sm:pt-30 w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <p className="mx-20 sm:mx-40  text-4xl font-bold inline border-b-4 border-r-gray-400">
         Certifications

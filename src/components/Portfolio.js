@@ -36,6 +36,12 @@ const Portfolio = () => {
       code: "https://github.com/Rajeshkumarachari/nike",
     },
     {
+      id: 7,
+      src: google,
+      demo: "https://google-search-sigma.vercel.app/",
+      code: "https://github.com/Rajeshkumarachari/google-search",
+    },
+    {
       id: 5,
       src: outlook,
       demo: "https://outlook-six.vercel.app/",
@@ -47,12 +53,7 @@ const Portfolio = () => {
       demo: "https://parkqwik.vercel.app/",
       code: "https://github.com/Rajeshkumarachari/parkqwik",
     },
-    {
-      id: 7,
-      src: google,
-      demo: "https://search-rajesh.vercel.app/",
-      code: "https://github.com/Rajeshkumarachari/search",
-    },
+
     {
       id: 8,
       src: multipleprojecta,

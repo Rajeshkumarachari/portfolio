@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="pt-[150px] sm:pt-0 w-full w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="pt-[150px] sm:pt-0  w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className=" max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-3 sm:pb-9">
@@ -13,12 +13,8 @@ const About = () => {
           </p>
         </div>
         <p className=" text-lg sm:text-xl mt-20 ">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae
-          magnam nesciunt sint est laboriosam, voluptatibus distinctio eos illo
-          perspiciatis impedit iure quidem, harum quibusdam eaque adipisci
-          repellat expedita! Labore, earum neque incidunt, quisquam placeat ab
-          amet facere magnam nam reiciendis officiis, corrupti natus quae et est
-          nostrum numquam asperiores sequi.
+          I graduated from Sri Venkateshwara University in 2021 with a B.Sc. in
+          computer science. I began working for TCS.
         </p>
         <br />
         <p className=" text-lg sm:text-xl">

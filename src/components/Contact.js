@@ -24,7 +24,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className=" pt-[530px] sm:pt-[200px] md:pt-10 w-full h-screen bg-gradient-to-b from-black to-gray-700 p-4 text-white"
+      className=" pt-[870px] sm:pt-[400px] md:pt-30 w-full h-screen bg-gradient-to-b from-black to-gray-700 p-4 text-white"
     >
       <div className=" flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8 ">
@@ -34,7 +34,6 @@ const Contact = () => {
           <p className=" py-6">
             Feel free to ask anything about
             <span className=" text-blue-400 cursor-pointer hover:text-blue-500">
-              {" "}
               Web development
             </span>
           </p>

@@ -69,13 +69,35 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className=" pt-[400px] sm:pt-20 bg-gradient-to-b from-gray-800  to-black w-full h-screen"
+      className=" pt-[590px] sm:pt-50 bg-gradient-to-b from-gray-800  to-black w-full h-screen"
     >
       <div className=" max-w-screen-lg mx-auto p-4  flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="  text-4xl font-bold border-b-4  border-gray-500 p-2 inline">
             Experience
           </p>
+          <div className="mt-6">
+            <p className=" font-semibold text-base sm:text-xl">
+              TATA CONSULTANCY SERVICES |
+              <span className=" text-xs  sm:text-sm">
+                {" "}
+                ASSISTANT SYSTEMS ENGINEER
+              </span>{" "}
+              <span className=" ml-[200px] text-base"> Feb 2022 -Present </span>
+            </p>
+            <ul className=" list-disc ml-5 my-3">
+              <li>
+                Developed responsive and interactive web applications using
+                React, JavaScript, HTML, and CSS, increasing user engagement by
+                73%.
+              </li>
+              <li>
+                Focusing on creating automation tools that streamline tasks by
+                extracting data from websites and converting it into Word
+                documents, leading to a 30% increase in efficiency.
+              </li>
+            </ul>
+          </div>
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
         <div className=" w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
