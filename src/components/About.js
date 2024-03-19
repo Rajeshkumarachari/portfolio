@@ -14,16 +14,23 @@ const About = () => {
         </div>
         <p className=" text-lg sm:text-xl mt-20 ">
           I graduated from Sri Venkateshwara University in 2021 with a B.Sc. in
-          computer science. I began working for TCS.
+          computer science. I began working for TCS. It's been an amazing
+          experience for me, and I've learned so much.
         </p>
         <br />
         <p className=" text-lg sm:text-xl">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis
-          provident hic consequatur porro facere, tempora, similique dicta autem
-          quis nesciunt minima accusantium amet doloribus ea enim odit dolorum
-          itaque molestias veniam ad minus, maxime temporibus. Maxime, eaque
-          minima, quae porro voluptates debitis voluptate in ipsa id quasi, et
-          eligendi. Veniam!
+          I successfully completed{" "}
+          <a
+            href="https://www.linkedin.com/in/akshaymarch7/"
+            className=" text-blue-400  underline"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Akshay saini's
+          </a>{" "}
+          Namaste Dev React js and JavaScript course. Having hands-on experience
+          in creating UI components.
         </p>
       </div>
     </div>
