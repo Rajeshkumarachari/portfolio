@@ -14,7 +14,7 @@ const Portfolio = () => {
     {
       id: 1,
       src: netflix,
-      demo: "https://moviesearch-4b11b.web.app/browse",
+      demo: "https://moviesearch-rajesh.vercel.app/",
       code: "https://github.com/Rajeshkumarachari/moviesearch",
     },
     {
@@ -70,7 +70,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className=" pt-24 bg-gradient-to-b from-black to-gray-600  w-full text-white md:h-[1000px]"
+      className="pt-1 sm:pt-24   w-full text-white md:h-[1000px]"
     >
       <div className=" max-w-screen-lg  p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className=" pb-8 ">

@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="pt-[150px] sm:pt-0  w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="-mt-20 sm:-mt-[20%] w-full h-screen  text-white"
     >
       <div className=" max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-3 sm:pb-9">
@@ -12,26 +12,13 @@ const About = () => {
             About me
           </p>
         </div>
-        <p className=" text-lg sm:text-xl mt-20 ">
-          I graduated from Sri Venkateshwara University in 2021 with a B.Sc. in
-          computer science. I began working for TCS. It's been an amazing
-          experience for me, and I've learned so much.
+        <p className=" text-lg sm:text-xl mt-50 ">
+          Hi All, i am K Rajesh from Puttur-Andhra Pradesh. I have completed a
+          BSc graduate in Computer Science from Sri Venkateshwara University,
+          Tirupati. Currently working as a Software Engineer at Tata Consultancy
+          Services.
         </p>
         <br />
-        <p className=" text-lg sm:text-xl">
-          I successfully completed{" "}
-          <a
-            href="https://www.linkedin.com/in/akshaymarch7/"
-            className=" text-blue-400  underline"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {" "}
-            Akshay saini's
-          </a>{" "}
-          Namaste Dev React js and JavaScript course. Having hands-on experience
-          in creating UI components.
-        </p>
       </div>
     </div>
   );

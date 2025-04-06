@@ -5,19 +5,16 @@ import { MdCloudDownload } from "react-icons/md";
 
 const Home = () => {
   return (
-    <div
-      name="home"
-      className="pt-[200px] sm:pt-0 h-screen w-full bg-gradient-to-b from-black via-black to-gray-700"
-    >
+    <div name="home" className="pt-[200px] sm:pt-0 h-screen w-full ">
       <div className=" max-w-screen-lg mx-auto flex flex-col justify-center items-center h-full px-4  md:flex-row">
         <div className=" flex flex-col justify-center h-full">
           <h2 className=" text-4xl sm:text-7xl font-bold text-white ">
             I'am Front End Developer
           </h2>
           <p className=" text-gray-400 py-4 max-w-md">
-            I have 2+ years of professional experience. Specializing in creating
+            I have 3+ years of professional experience. Specializing in creating
             dynamic and engaging user interfaces using React.js, JavaScript,
-            Redux, Next.js, HTML, and CSS.
+            Redux, Next.js, Node js, AWS, HTML, and CSS.
           </p>
           <div className=" flex">
             <button className="group text-white flex w-fit px-6 py-3 my-2 items-center rounded-md bg-gradient-to-r  from-blue-600 to-cyan-400">

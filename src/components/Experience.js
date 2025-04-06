@@ -81,13 +81,10 @@ const Experience = () => {
     },
   ];
   return (
-    <div
-      name="experience"
-      className=" pt-[590px] sm:pt-50 bg-gradient-to-b from-gray-800  to-black w-full h-screen"
-    >
+    <div name="experience" className=" pt-[132%]  sm:pt-[27%]  w-full h-screen">
       <div className=" max-w-screen-lg mx-auto p-4  flex flex-col justify-center w-full h-full text-white">
         <div>
-          <p className="  text-4xl font-bold border-b-4  border-gray-500 p-2 inline">
+          <p className="  text-4xl font-bold border-b-4  border-gray-500 p-2  inline">
             Experience
           </p>
           <div className="mt-6">
@@ -102,14 +99,11 @@ const Experience = () => {
             <ul className=" list-disc ml-5 my-3">
               <li>
                 Developed responsive and interactive web applications using
-                React, JavaScript, HTML, and CSS, increasing user engagement by
-                73%.
+                React JS, JavaScript, Node js, for one of the insurance company
+                to analyze the customer data and provide insights to the
+                business.
               </li>
-              <li>
-                Focusing on creating automation tools that streamline tasks by
-                extracting data from websites and converting it into Word
-                documents, leading to a 30% increase in efficiency.
-              </li>
+              <li></li>
             </ul>
           </div>
           <p className="py-6">These are the technologies I've worked with</p>
