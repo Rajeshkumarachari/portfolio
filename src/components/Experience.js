@@ -4,6 +4,8 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import react from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
+import nodeCert from "../assets/node.jpeg";
+import awsCert from "../assets/aws.png";
 import redux from "../assets/redux.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
@@ -13,44 +15,44 @@ const Experience = () => {
   const skills = [
     {
       id: 1,
-      src: html,
-      name: "HTML5",
-      style: "shadow-orange-500",
-    },
-    {
-      id: 2,
-      src: css,
-      name: "CSS3",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 3,
       src: javascript,
       name: "JavaScript",
       style: "shadow-yellow-500",
     },
     {
-      id: 4,
+      id: 2,
       src: react,
       name: "React JS",
       style: "shadow-blue-600",
     },
     {
-      id: 5,
+      id: 3,
       src: nextjs,
       name: "Next JS",
       style: "shadow-gray-500",
     },
     {
-      id: 6,
+      id: 4,
       src: redux,
       name: " Redux",
       style: "shadow-purple-500",
     },
     {
+      id: 5,
+      src: nodeCert,
+      name: " Node JS",
+      style: "shadow-green-500",
+    },
+    {
+      id: 6,
+      src: awsCert,
+      name: "AWS",
+      style: "shadow-yellow-500",
+    },
+    {
       id: 7,
       src: github,
-      name: "HTML5",
+      name: "GitHub",
       style: "shadow-gray-500",
     },
     {
@@ -64,6 +66,18 @@ const Experience = () => {
       src: material,
       name: "Material UI",
       style: "shadow-sky-600",
+    },
+    {
+      id: 10,
+      src: html,
+      name: "HTML5",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 11,
+      src: css,
+      name: "CSS3",
+      style: "shadow-blue-500",
     },
   ];
   return (

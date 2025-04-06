@@ -1,6 +1,7 @@
 import React from "react";
 import javascript from "../assets/Certificates/Javascript.png";
 import ReactLog from "../assets/Certificates/React.png";
+import Node from "../assets/Certificates/node.png";
 
 const Certification = () => {
   return (
@@ -13,14 +14,19 @@ const Certification = () => {
       </p>
       <div className="mt-10 mx-5 sm:mx-40 gap-6 grid sm:flex">
         <img
-          src={ReactLog}
+          src={javascript}
           alt="React"
-          className=" w-[600px]  sm:w-[500px] h-[300px] rounded-md  hover:scale-105 duration-200"
+          className=" w-1/3 h-[300px] rounded-md  hover:scale-105 duration-200"
         />
         <img
-          src={javascript}
+          src={ReactLog}
           alt="javascript"
-          className="w-[500px] h-[300px] rounded-md  hover:scale-105 duration-200"
+          className="w-1/3  h-[300px] rounded-md  hover:scale-105 duration-200"
+        />
+        <img
+          src={Node}
+          alt="javascript"
+          className="w-1/3  h-[300px] rounded-md  hover:scale-105 duration-200"
         />
       </div>
     </div>
